@@ -1,6 +1,31 @@
 h1 {
   color: red;
   text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: Black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: Black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: Black;
+  text-align: center;
 }
 
 img {
@@ -11,4 +36,23 @@ img {
 img {
     display: block;
     margin: 0 auto;
+}
+
+.col1 {
+  width: 430px;
+  float: left;
+  margin: 10px;
+  text-align: justify;
+}
+
+.col2 {
+  width: 430px;
+  float: right;
+  margin: 10px;
+  text-align: justify;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
 }
